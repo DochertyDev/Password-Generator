@@ -1,2 +1,40 @@
 # Password Generator
-This webpage creates a strong unique password consisting of 5 different words, followed by 5 different two digit numbers, sepearated by _'s. The word base for the generator consists of 500 random words. Once a password is generated, it can be copied to your clipboard for usage.
+
+A retro-styled terminal password generator that creates memorable yet secure passwords using random word combinations.
+
+## Features
+
+**Customizable Password Generation**
+- Choose how many words to include (1-10)
+- Add two-digit numbers to each word
+- Include random symbols for extra security
+- Capitalize each word for added complexity
+- Custom separator characters
+
+**Security**
+- Uses cryptographically secure random number generation via `window.crypto`
+- Real-time password strength indicator (Weak/Medium/Strong)
+- Word pool of 500+ diverse words including fruits, nature terms, descriptive words, objects, and more
+
+**User Experience**
+- Clean hacker terminal aesthetic with green phosphor styling
+- One-click password generation
+- Copy to clipboard functionality
+- Responsive design that works on mobile and desktop
+
+## How It Works
+
+The generator randomly selects words from a large dictionary and combines them based on your preferences. By default, it creates passwords like `curious12_shadow89_river45_diamond23_gentle67`.
+
+With all options enabled, passwords can look like `Curious12!_Shadow89@_River45#_Diamond23$_Gentle67%` for maximum security.
+
+## Technical Details
+
+- Pure HTML/CSS/JavaScript (no dependencies except Tailwind CSS via CDN)
+- VT323 monospace font for authentic terminal look
+- Custom styled checkboxes and scrollbars
+- Mobile-responsive layout
+
+## Usage
+
+Just open `PasswordGenerator.html` in any modern web browser. No installation or server required.
