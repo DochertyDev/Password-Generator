@@ -1,0 +1,2 @@
+# Password Generator
+This webpage creates a strong unique password consisting of 5 different words, followed by 5 different two digit numbers, sepearated by _'s. The word base for the generator consists of 500 random words. Once a password is generated, it can be copied to your clipboard for usage.
