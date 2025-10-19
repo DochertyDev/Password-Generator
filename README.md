@@ -22,6 +22,11 @@ A retro-styled terminal password generator that creates memorable yet secure pas
 - Copy to clipboard functionality
 - Responsive design that works on mobile and desktop
 
+**Enhanced User Interface**
+- Smooth button hover and click animations for interactive feedback.
+- Fluid input field interactions with visual cues on focus.
+- Animated scrolling experience with subtle parallax effects for the title.
+
 ## How It Works
 
 The generator randomly selects words from a large dictionary and combines them based on your preferences. By default, it creates passwords like `curious12_shadow89_river45_diamond23_gentle67`.
@@ -34,6 +39,7 @@ With all options enabled, passwords can look like `Curious12!_Shadow89@_River45#
 - VT323 monospace font for authentic terminal look
 - Custom styled checkboxes and scrollbars
 - Mobile-responsive layout
+- Modular JavaScript for UI animations (button, input, scroll effects).
 
 ## Usage
 
