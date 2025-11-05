@@ -1,5 +1,7 @@
 # Password Generator
 
+![Screenshot](images/PasswordGeneratorScreenshot.png)
+
 A retro-styled terminal password generator that creates memorable yet secure passwords using random word combinations.
 
 ## Features

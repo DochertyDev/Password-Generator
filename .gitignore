@@ -4,3 +4,9 @@ build/
 *.log
 .env*
 coverage/
+.specify/
+.gemini/
+.eslintignore
+.prettierignore
+frontend/
+.vscode/
