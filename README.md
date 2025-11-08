@@ -41,8 +41,6 @@ Password Generator
 - [Support the Project](#-support-the-project)
 - [Disclaimer](#️-disclaimer)
 
----
-
 ## 📄 Overview
 
 A retro-styled terminal password generator that creates memorable yet secure passwords using random word combinations. This is a single-page application built with HTML, Tailwind CSS, and vanilla JavaScript.
@@ -54,8 +52,6 @@ A retro-styled terminal password generator that creates memorable yet secure pas
 - **Strength Indicator:** Real-time feedback on password strength (Weak, Medium, Strong).
 - **Copy to Clipboard:** Easily copy the generated password with a single click.
 - **Retro Aesthetic:** A fun, "hacker terminal" interface with a monospace font and green-on-black text.
-
----
 
 ### 🚀 Quick Start (Local Development)
 
@@ -71,8 +67,6 @@ No build process or installation is required. To run the project locally:
     ```
 3.  Open the `index.html` file in any modern web browser.
 
----
-
 ## ⚙️ Usage
 
 1.  **Navigate to the [Page URL](https://dochertydev.github.io/Password-Generator/)**.
@@ -85,8 +79,6 @@ No build process or installation is required. To run the project locally:
 3.  **Generate:** Click the `> GENERATE PASSWORD` button.
 4.  **Copy:** The new password will appear in the output field. Click the `[COPY]` button to copy it to your clipboard.
 
----
-
 ## 🛠️ Technologies Used
 
 -   **HTML5**
@@ -94,13 +86,9 @@ No build process or installation is required. To run the project locally:
 -   **JavaScript (ES6+)**
 -   **Google Fonts** (VT323)
 
----
-
 ## 🔒 Security Notes
 
 The password generator utilizes the `window.crypto` API for generating cryptographically secure random values, which is essential for creating strong and unpredictable passwords. As a client-side application, generated passwords are not transmitted or stored on any server, enhancing user privacy and security. Users are advised to practice good password hygiene, such as using unique passwords for different services and storing them securely.
-
----
 
 ## ❓ Troubleshooting
 
@@ -108,8 +96,6 @@ This is a client-side, static web application with no complex dependencies or ba
 
 **Issue**: The application does not load or function correctly.
 - **Solution**: Ensure you are opening the `index.html` file directly in a modern web browser. Clear your browser's cache if issues persist. Verify that JavaScript is enabled in your browser settings.
-
----
 
 ## 🤝 Contributing
 
@@ -121,8 +107,6 @@ This is a client-side, static web application with no complex dependencies or ba
 
 We welcome contributions from the community! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
----
-
 ## 🌟 Support the Project
 
 **Love Password Generator?** Give us a ⭐ on GitHub!
@@ -132,8 +116,6 @@ We welcome contributions from the community! If you have suggestions for improve
       <img width="800" src="https://api.star-history.com/svg?repos=DochertyDev/Password-Generator&type=Date" alt="Star-history">
   </p>
 </div>
-
----
 
 ## ⚠️ Disclaimer
 
