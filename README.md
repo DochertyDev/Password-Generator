@@ -10,7 +10,7 @@ Password Generator
 
 <h2 align="center">A retro-styled terminal password generator that creates memorable yet secure passwords.</h2>
 
-<div align="center">
+<div>
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![GitHub Stars](https://img.shields.io/github/stars/DochertyDev/Password-Generator)](https://github.com/DochertyDev/Password-Generator)
 [![Site](https://img.shields.io/badge/Website-github.io-2d3748.svg)](https://dochertydev.github.io/Password-Generator/)
@@ -19,12 +19,12 @@ Password Generator
 
 <br />
 
-<div align="center">
+<div>
 <img src="images/PasswordGeneratorScreenshot.png" alt="Password Generator Screenshot" width="800" style="border-radius: 16px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2); transform: perspective(1000px) rotateX(2deg); transition: transform 0.3s ease;">
 </div>
 
-> [!TIP]
-> **New!** Now with a real-time password strength indicator and custom separators!
+>**New!** 
+>Now with a real-time password strength indicator and custom separators!
 
 ---
 
