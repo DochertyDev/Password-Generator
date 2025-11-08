@@ -12,8 +12,7 @@ Password Generator
 
 <div align="center">
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![GitHub Stars](https://img.shields.io/github/stars/DochertyDev/Password-Generator)](https://github.com/DochertyDev/Password-Generator)
-[![Site](https://img.shields.io/badge/Website-github.io-2d3748.svg)](https://dochertydev.github.io/Password-Generator/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![Site](https://img.shields.io/badge/Website-github.io-2d3748.svg)](https://dochertydev.github.io/Password-Generator/) [![GitHub Stars](https://img.shields.io/github/stars/DochertyDev/Password-Generator)](https://github.com/DochertyDev/Password-Generator)
 
 </div>
 
@@ -25,12 +24,26 @@ Password Generator
 <img src="images/PasswordGeneratorScreenshot.png" alt="Password Generator Screenshot" width="800" style="border-radius: 16px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2); transform: perspective(1000px) rotateX(2deg); transition: transform 0.3s ease;">
 </div>
 
->**New!** 
+>**New!**
 >Now with a real-time password strength indicator and custom separators!
 
 ---
 
-## Overview
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Quick Start](#-quick-start-local-development)
+- [Usage](#️-usage)
+- [Technologies Used](#️-technologies-used)
+- [Security Notes](#-security-notes)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [Support the Project](#-support-the-project)
+- [Disclaimer](#️-disclaimer)
+
+---
+
+## 📄 Overview
 
 A retro-styled terminal password generator that creates memorable yet secure passwords using random word combinations. This is a single-page application built with HTML, Tailwind CSS, and vanilla JavaScript.
 
@@ -60,7 +73,7 @@ No build process or installation is required. To run the project locally:
 
 ---
 
-## Usage
+## ⚙️ Usage
 
 1.  **Navigate to the [Page URL](https://dochertydev.github.io/Password-Generator/)**.
 2.  **Adjust the Options:**
@@ -74,7 +87,7 @@ No build process or installation is required. To run the project locally:
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 -   **HTML5**
 -   **Tailwind CSS** (via CDN)
@@ -83,10 +96,45 @@ No build process or installation is required. To run the project locally:
 
 ---
 
+## 🔒 Security Notes
+
+The password generator utilizes the `window.crypto` API for generating cryptographically secure random values, which is essential for creating strong and unpredictable passwords. As a client-side application, generated passwords are not transmitted or stored on any server, enhancing user privacy and security. Users are advised to practice good password hygiene, such as using unique passwords for different services and storing them securely.
+
+---
+
+## ❓ Troubleshooting
+
+This is a client-side, static web application with no complex dependencies or backend. Therefore, extensive troubleshooting is generally not required.
+
+**Issue**: The application does not load or function correctly.
+- **Solution**: Ensure you are opening the `index.html` file directly in a modern web browser. Clear your browser's cache if issues persist. Verify that JavaScript is enabled in your browser settings.
+
+---
+
 ## 🤝 Contributing
 
+<div align="center">
+<a href="https://github.com/DochertyDev/Password-Generator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DochertyDev/Password-Generator&max=400&columns=20"  width="100"/>
+</a>
+</div>
+
 We welcome contributions from the community! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
+---
 
 ## 🌟 Support the Project
 
 **Love Password Generator?** Give us a ⭐ on GitHub!
+
+<div align="center">
+  <p>
+      <img width="800" src="https://api.star-history.com/svg?repos=DochertyDev/Password-Generator&type=Date" alt="Star-history">
+  </p>
+</div>
+
+---
+
+## ⚠️ Disclaimer
+
+This password generator is provided "as is" without any warranties, express or implied. While efforts have been made to ensure its security and functionality, the developers are not responsible for any direct or indirect damages or losses arising from its use. Users are solely responsible for the security of the passwords they generate and how they choose to use and store them.
