@@ -53,7 +53,7 @@ A retro-styled terminal password generator that creates memorable yet secure pas
 - **Copy to Clipboard:** Easily copy the generated password with a single click.
 - **Retro Aesthetic:** A fun, "hacker terminal" interface with a monospace font and green-on-black text.
 
-### 🚀 Quick Start (Local Development)
+## 🚀 Quick Start (Local Development)
 
 No build process or installation is required. To run the project locally:
 
