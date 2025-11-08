@@ -10,10 +10,12 @@ Password Generator
 
 <h2 align="center">A retro-styled terminal password generator that creates memorable yet secure passwords.</h2>
 
-<div>
+<div align="center">
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![GitHub Stars](https://img.shields.io/github/stars/DochertyDev/Password-Generator)](https://github.com/DochertyDev/Password-Generator)
 [![Site](https://img.shields.io/badge/Website-github.io-2d3748.svg)](https://dochertydev.github.io/Password-Generator/)
+
+</div>
 
 :star: _Love Password Generator? Give us a star to help other developers discover it!_
 
