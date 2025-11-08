@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hacker Terminal Password Generator</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="frontend/src/styles/main.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
         
@@ -200,18 +199,7 @@
         <p id="message-box" class="text-xl mt-6 opacity-0 transition-opacity duration-300"></p> <!-- Increased text size and margin -->
     </div>
 
-    <script type="module" src="frontend/src/scripts/button-animations.js"></script>
     <script type="module">
-        import { initializeButtonAnimations } from './frontend/src/scripts/button-animations.js';
-        import { initializeInputAnimations } from './frontend/src/scripts/input-animations.js';
-        import { initializeScrollAnimations } from './frontend/src/scripts/scroll-animations.js';
-
-        document.addEventListener('DOMContentLoaded', () => {
-            initializeButtonAnimations();
-            initializeInputAnimations();
-            initializeScrollAnimations();
-        });
-
         // Array of common words to generate the password from
         const words = [
             'apple', 'banana', 'cherry', 'grape', 'lemon', 'orange', 'strawberry', 'melon', 'kiwi', 'mango',
